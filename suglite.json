@@ -1,0 +1,17 @@
+{
+	"cmd": "tsc && tsc-alias && bun build src/demo.ts --outdir dist --minify --sourcemap",
+	"watch": [
+		"src"
+	],
+	"server": 16598,
+	"server_map": {
+		"dir": {
+			"/": "public",
+			"-/": "dist"
+		}
+	},
+	"restart_cmd": "clear",
+	"events": {
+		"rs": "clear"
+	}
+}
