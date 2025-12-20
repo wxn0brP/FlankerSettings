@@ -13,12 +13,15 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "build": "tsc && tsc-alias"
+        "build": "tsc && tsc-alias && bun run build.ts"
     },
     "devDependencies": {
         "@wxn0brp/db-core": "^0.3.0",
         "@wxn0brp/db-storage-web": "^0.0.5",
         "@wxn0brp/flanker-ui": "^0.4.6",
+        "esbuild": "*",
+        "esbuild-style-plugin": "*",
+        "sass": "*",
         "tsc-alias": "*",
         "typescript": "*"
     },
