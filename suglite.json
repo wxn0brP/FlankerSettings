@@ -1,5 +1,5 @@
 {
-	"cmd": "tsc && tsc-alias && bun build src/demo.ts --outdir dist --minify --sourcemap",
+	"cmd": "tsc && tsc-alias && bun run build.ts && bun build public/demo.ts --outdir dist --minify --sourcemap",
 	"watch": [
 		"src"
 	],

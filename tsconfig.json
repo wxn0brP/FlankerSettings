@@ -13,7 +13,9 @@
 		]
 	},
 	"include": [
-		"./src"
+		"./src",
+		"public/demo.ts",
+		"public/demo.ts"
 	],
 	"exclude": [
 		"node_modules"

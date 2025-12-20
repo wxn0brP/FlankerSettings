@@ -11,3 +11,17 @@ body {
     padding: 24px;
     line-height: 1.6;
 }
+
+:root {
+    --settings-background-color: #181818;
+    --settings-border-color: #222;
+    --settings-text-color: #f0f0f0;
+    --settings-input-background: #1a1a1a;
+    --settings-input-text-color: #fff;
+    --settings-input-border-color: #333;
+    --settings-input-focus-border-color: #555;
+    --settings-input-focus-background: #202020;
+    --settings-accent-color: #4caf50;
+    --settings-link-color: #4da6ff;
+    --settings-link-hover-color: #80c1ff;
+}

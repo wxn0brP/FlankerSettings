@@ -1,7 +1,7 @@
 import "@wxn0brp/flanker-ui/html";
-import { Engine } from ".";
+import { Engine } from "../src";
 import { createWebStorageValthera } from "@wxn0brp/db-storage-web";
-import { generateHTML } from "./html";
+import { generateHTML } from "../src/html";
 
 const storeData = {
     theme: "dark",
