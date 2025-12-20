@@ -1,0 +1,44 @@
+{
+  "name": "@wxn0brp/flanker-settings",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wxn0brP/FlankerSettings.git"
+  },
+  "homepage": "https://github.com/wxn0brP/FlankerSettings",
+  "author": "wxn0brP",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@wxn0brp/db-core": "^0.3.0",
+    "@wxn0brp/db-storage-web": "^0.0.5",
+    "@wxn0brp/flanker-ui": "^0.4.6",
+    "esbuild": "*",
+    "esbuild-style-plugin": "*",
+    "sass": "*",
+    "tsc-alias": "*",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "@wxn0brp/db-core": ">=0.3.0",
+    "@wxn0brp/flanker-ui": ">=0.4.6"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js",
+      "default": "./dist/*.js"
+    }
+  }
+}
