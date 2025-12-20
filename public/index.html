@@ -11,29 +11,27 @@
 <body>
     <h1>App Settings</h1>
 
-    <div class="box" id="app">
-        <div class="field">
-            <label>UI Theme</label>
+    <div class="settings" id="app">
+        <label>
+            UI Theme
             <select data-id="theme">
                 <option value="light">light</option>
                 <option value="dark">dark</option>
             </select>
-        </div>
-
-        <div class="field inline">
+        </label>
+        <label class="inline">
             <input type="checkbox" data-id="notifications" />
-            <label>Show notifications</label>
-        </div>
-
-        <div class="field">
-            <label>User name</label>
-            <input type="text" data-id="username" placeholder="np. Master" />
-        </div>
-
-        <div class="field">
-            <label>Refresh rate (in seconds)</label>
+            Show notifications
+        </label>
+        <label>
+            User name
+            <input type="text" data-id="username" placeholder="eg. Master" />
+        </label>
+        <label>
+            Refresh rate (in seconds)
             <input type="number" data-id="refreshRate" min="1" max="120" />
-        </div>
+        </label>
+        </article>
     </div>
 
     <script type="module" src="demo.js"></script>
