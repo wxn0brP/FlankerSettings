@@ -31,7 +31,7 @@ export class Engine<T = any> {
     }
 
     async _initStoreAndDb() {
-        const settings = await this.db.find<DbSetting>(this.opts.collection);
+        const settings = await this.db.find<DbSetting>({ collection: this.opts.collection });
         const obj = keysToObj(settings);
 
         const storeData = deepMerge({}, this.storeData, obj);
@@ -53,7 +53,11 @@ export class Engine<T = any> {
             const cell = this._pickCell(id.split("."));
 
             cell.subscribe(v => {
-                this.db.updateOneOrAdd(this.opts.collection, { _id: id }, { v });
+                this.db.updateOneOrAdd({
+                    collection: this.opts.collection,
+                    search: { _id: id },
+                    updater: { v }
+                });
             });
 
             const target = el as HTMLInputElement | HTMLSelectElement;

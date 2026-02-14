@@ -16,9 +16,9 @@
         "build": "tsc && tsc-alias && bun run build.ts"
     },
     "devDependencies": {
-        "@wxn0brp/db-core": "^0.3.0",
-        "@wxn0brp/db-storage-web": "^0.0.5",
-        "@wxn0brp/flanker-ui": "^0.4.6",
+        "@wxn0brp/db-core": "~0.7.0",
+        "@wxn0brp/db-storage-web": "~0.0.8",
+        "@wxn0brp/flanker-ui": "~0.5.1",
         "esbuild": "*",
         "esbuild-style-plugin": "*",
         "sass": "*",
@@ -26,8 +26,8 @@
         "typescript": "*"
     },
     "peerDependencies": {
-        "@wxn0brp/db-core": ">=0.3.0",
-        "@wxn0brp/flanker-ui": ">=0.4.6"
+        "@wxn0brp/db-core": "~0.7.0",
+        "@wxn0brp/flanker-ui": "~0.5.1"
     },
     "files": [
         "dist"
