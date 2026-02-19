@@ -16,7 +16,7 @@
         "build": "tsc && tsc-alias && bun run build.ts"
     },
     "devDependencies": {
-        "@wxn0brp/db-core": "~0.7.0",
+        "@wxn0brp/db-core": "~0.9.0",
         "@wxn0brp/db-storage-web": "~0.0.8",
         "@wxn0brp/flanker-ui": "~0.5.1",
         "esbuild": "*",
