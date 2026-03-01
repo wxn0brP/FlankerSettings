@@ -17,7 +17,7 @@
     },
     "devDependencies": {
         "@wxn0brp/db-core": "~0.7.0",
-        "@wxn0brp/db-storage-web": "~0.0.8",
+        "@wxn0brp/db-storage-web": "~0.90.0",
         "@wxn0brp/flanker-ui": "~0.5.1",
         "esbuild": "*",
         "esbuild-style-plugin": "*",
