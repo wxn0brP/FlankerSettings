@@ -23,7 +23,7 @@
         "esbuild-style-plugin": "*",
         "sass": "*",
         "tsc-alias": "*",
-        "typescript": "*"
+        "typescript": "^5"
     },
     "peerDependencies": {
         "@wxn0brp/db-core": "~0.7.0",
