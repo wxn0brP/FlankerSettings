@@ -17,18 +17,18 @@
     },
     "devDependencies": {
         "@wxn0brp/biome": "*",
-        "@wxn0brp/db-core": "^0.10.2",
-        "@wxn0brp/db-storage-web": "^0.100.0",
-        "@wxn0brp/flanker-ui": "^0.5.1",
-        "esbuild": "^0.27",
+        "@wxn0brp/db-core": "^0.12.8",
+        "@wxn0brp/db-storage-web": "^0.120.1",
+        "@wxn0brp/flanker-ui": "^0.5.3",
+        "esbuild": "^0.28",
         "esbuild-style-plugin": "^1",
         "sass": "^1",
         "tsc-alias": "^1",
-        "typescript": "^6"
+        "typescript": "^7"
     },
     "peerDependencies": {
-        "@wxn0brp/db-core": "^0.10.2",
-        "@wxn0brp/flanker-ui": "^0.5.1"
+        "@wxn0brp/db-core": "^0.12.8",
+        "@wxn0brp/flanker-ui": "^0.5.3"
     },
     "files": [
         "dist"
