@@ -18,7 +18,7 @@
     "devDependencies": {
         "@wxn0brp/biome": "*",
         "@wxn0brp/db-core": "^0.12.8",
-        "@wxn0brp/db-storage-web": "^0.120.1",
+        "@wxn0brp/db-storage-web": "^0.130.0",
         "@wxn0brp/flanker-ui": "^0.5.3",
         "esbuild": "^0.28",
         "esbuild-style-plugin": "^1",
